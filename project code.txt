@@ -1,0 +1,126 @@
+<html>
+
+<head>
+	<title> GDC </title>
+	<style>
+        	body
+		{
+            	background-color: black;   /* Setting background color to black */
+            	color: white;    /* Setting the text color to white for better visibility */
+		justify-content: center;    /* Centers horizontally */
+            	align-items: center;     /* Centers vertically */
+        	}
+
+		td
+		{
+          	width: 100%;
+	       	border-collapse: separate;        /* Don't collapse borders, so spacing is visible */
+            	border-spacing: 20px;       /* This sets the space between table cells */
+            	margin: 0;      /* Remove default margin from paragraph */
+		}
+
+        	td
+		{
+            	border: 4px solid black;
+            	padding: 60px;
+            	text-align: center;
+        	}
+
+		/* Specific classes for rounded corners */
+        	.rounded-top-left {
+            		border-top-left-radius: 15px;
+        	}
+        	.rounded-bottom-left {
+            		border-bottom-left-radius: 15px;
+        	}
+        	.rounded-top-right {
+            		border-top-right-radius: 15px;
+        	}
+        	.rounded-bottom-right {
+            		border-bottom-right-radius: 15px;
+        	}
+
+        	/* Set different widths for each column */
+        	.col1 { width: 31%; }
+        	.col2 { width: 37%; }
+        	.col3 { width: 1%; }
+		.col4 { width: 31%; }
+
+
+		/* Styling for the images inside boxes */
+
+		.col1 img {
+    		width: 100px;
+    		height: 100px;
+		filter: invert(100%) brightness(2);   /* Inverts black to white */
+		text-align: center;
+		margin: 0 auto;   /* Centers the image */
+		}
+
+		.col1 {
+		font-family: "Lucida Handwriting";    /* Change to any font family you prefer */
+            	font-size: 50px;      /* Adjust font size */
+            	color: black;      /* Change the font color */
+		text-align: center;
+		}
+
+		/*col2 */
+		.font1{
+		font-family: "Freestyle Script";    /* Change to any font family you prefer */
+            	font-size: 80px;      /* Adjust font size */
+            	color: black;      /* Change the font color */
+		text-align: center;
+		}
+		/*col2 */
+		.font2{
+		font-family: "Freestyle Script";    /* Change to any font family you prefer */
+            	font-size: 80px;      /* Adjust font size */
+            	color: white;      /* Change the font color */
+		text-align: right;
+		margin: 0;
+		}
+
+		.col4 img {
+    		width: 100px;
+    		height: 100px;
+		text-align: center;
+		margin: 0 auto;   /* Centers the image */
+		}
+	
+		.col4 {
+		font-family: "Freestyle Script";    /* Change to any font family you prefer */
+            	font-size: 80px;      /* Adjust font size */
+            	color: black;      /* Change the font color */
+		text-align: center;
+		}
+
+
+	</style>
+
+</head>
+
+<body>
+
+<table>
+
+<tr>
+<td class="rounded-top-left col1"; style="background-color: #ff4d4d; /* Red */" ; rowspan="2" > <img src="E:\web dev\icon.png" > </td>
+<td class="col2 font1"; style="background-color: #ffddcc; /* Light peach */" ; colspan="2" > 12833 </td>
+<td class="rounded-top-right col4"; style="background-color: #cc99ff; /* Light purple */" ; rowspan="2" > <img src="E:\web dev\icon 2.png" > </td>
+</tr>
+
+<tr>
+<td class="col2 font2"; style="background-color: #000000; /* Black */"  > Reyansh Sinha </td>
+<td class="col3"; style="background-color: #000000; /* Black */"  > </td> 
+</tr>
+
+<tr>
+<td class="rounded-bottom-left col1"; style="background-color: #99ff99; /* Light green */" ; font-family: "Niagara Engraved "; colspan="2" > <b> Works </b> </td>
+<td class="rounded-bottom-right col4"; style="background-color: #ffddcc; /* Light peach */" ; colspan="2" > Fear & Failures </td>
+</tr>
+
+
+
+</body>
+
+</html>
